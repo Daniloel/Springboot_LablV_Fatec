@@ -33,8 +33,11 @@ return usuarioRepo.save(usuario);
 
 
 public List<Usuario> buscarTodos() {
-    // TODO Auto-generated method stub
-    throw new UnsupportedOperationException("Unimplemented method 'buscarTodos'");
+
+    
+    return usuarioRepo.findAll();
+   
+    //throw new UnsupportedOperationException("Unimplemented method 'buscarTodos'");
 }
 
 
